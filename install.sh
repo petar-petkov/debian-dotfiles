@@ -1,5 +1,8 @@
 #!/bin/bash
 
+set -e
+set -f
+
 # Install requirements
 printf "\n🧰 Installing requirements\n"
 apt update && apt install zsh zplug vim fonts-powerline -y
