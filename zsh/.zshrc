@@ -50,7 +50,7 @@ zplug romkatv/powerlevel10k, as:theme, depth:1
 if ! zplug check --verbose; then
     echo; zplug install
 fi
-zplug load --verbose
+zplug load
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -15,3 +15,7 @@ chsh -s /bin/zsh
 printf "\n🔧 Setting up configuration files\n"
 cp ~/debian-dotfiles/zsh/.zshrc ~/.zshrc
 cp ~/debian-dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
+
+# Cleanup
+printf "\n🧹 Cleaning up files\n"
+rm -rf ~/debian-dotfiles/
