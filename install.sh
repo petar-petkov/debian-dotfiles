@@ -19,3 +19,6 @@ chsh -s /bin/zsh
 printf "\n🔧 Setting up configuration files\n"
 cp ~/debian-dotfiles/zsh/.zshrc ~/.zshrc
 cp ~/debian-dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
+
+# Attempt tp call zsh and install plugins
+echo y | zsh
