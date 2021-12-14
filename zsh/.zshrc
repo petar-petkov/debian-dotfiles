@@ -44,7 +44,7 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-completions"
 zplug "junegunn/fzf"
-zplug "romkatv/powerlevel10k"
+zplug romkatv/powerlevel10k, as:theme, depth:1
 
 # zplug - install/load new plugins when zsh is started or reloaded
 if ! zplug check --verbose; then
