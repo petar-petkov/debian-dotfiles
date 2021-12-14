@@ -48,10 +48,7 @@ zplug romkatv/powerlevel10k, as:theme, depth:1
 
 # zplug - install/load new plugins when zsh is started or reloaded
 if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
+    echo; zplug install
 fi
 zplug load --verbose
 
