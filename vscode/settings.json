@@ -1,0 +1,30 @@
+{
+    // Python config
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    // Auto formatting
+    "python.formatting.provider": "yapf",
+    "editor.formatOnSave": true,
+    // Test settings
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        ".",
+        "--reuse-db"
+    ],
+    // Security linter
+    "python.linting.banditEnabled": true,
+    "python.linting.banditArgs": [
+        "-s",
+        "B101"
+    ],
+    // Misc settings
+    "debug.inlineValues": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}
